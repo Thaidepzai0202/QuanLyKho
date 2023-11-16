@@ -27,3 +27,5 @@ C:\Users\admin\source\repos\QuanLyKho\QuanLyKho\obj\Debug\GeneratedInternalTypeH
 C:\Users\admin\source\repos\QuanLyKho\QuanLyKho\obj\Debug\ResourceXAML\MainResource.baml
 C:\Users\admin\source\repos\QuanLyKho\QuanLyKho\obj\Debug\LoginWindow.g.cs
 C:\Users\admin\source\repos\QuanLyKho\QuanLyKho\obj\Debug\LoginWindow.baml
+C:\Users\admin\source\repos\QuanLyKho\QuanLyKho\obj\Debug\UserControlKteam\UserControlUC.g.cs
+C:\Users\admin\source\repos\QuanLyKho\QuanLyKho\obj\Debug\UserControlKteam\UserControlUC.baml
