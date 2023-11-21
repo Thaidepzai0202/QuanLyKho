@@ -6,7 +6,8 @@
              xmlns:local="clr-namespace:QuanLyKho.UserControlKteam"
              xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
              mc:Ignorable="d" 
-             d:DesignHeight="450" d:DesignWidth="800">
+             Name="ucControlbar"
+             >
     <Grid>
         <materialDesign:ColorZone  Mode="PrimaryLight">
 
@@ -40,7 +41,7 @@
 
                     <TextBlock Margin="16,0,0,0"
                        VerticalAlignment="Center"
-                       Text="Material Design In XAML Toolkit" />
+                       Text="Tiêu đề " />
                 </StackPanel>
             </DockPanel>
         </materialDesign:ColorZone>
