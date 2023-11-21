@@ -17,12 +17,13 @@ using System.Windows.Shapes;
 namespace QuanLyKho.UserControlKteam
 {
     /// <summary>
-    /// Interaction logic for UserControlUC.xaml
+    /// Interaction logic for ControlBarUC.xaml
     /// </summary>
-    public partial class UserControlUC : UserControl
+    public partial class ControlBarUC : UserControl
     {
         public ControlBarViewModel Viewmodel { get; set; }
-        public UserControlUC()
+
+        public ControlBarUC()
         {
             InitializeComponent();
             this.DataContext = Viewmodel = new ControlBarViewModel();

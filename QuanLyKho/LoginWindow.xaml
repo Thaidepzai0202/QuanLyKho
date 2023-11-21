@@ -4,29 +4,30 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:QuanLyKho"
-        xmlns:uc="clr-namespace:QuanLyKho.UserControlKteam"
         mc:Ignorable="d"
-        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        
+        xmlns:uc="clr-namespace:QuanLyKho.UserControlKteam"
+         xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
         TextElement.Foreground="{DynamicResource MaterialDesignBody}"
-        TextElement.FontWeight="Regular"
-        TextElement.FontSize="13"
-        TextOptions.TextFormattingMode="Ideal"
-        TextOptions.TextRenderingMode="Auto"
-        Background="{DynamicResource MaterialDesignPaper}"
-        FontFamily="{DynamicResource MaterialDesignFont}"
+     TextElement.FontWeight="Regular"
+     TextElement.FontSize="13"
+     TextOptions.TextFormattingMode="Ideal"
+     TextOptions.TextRenderingMode="Auto"
+     Background="{DynamicResource MaterialDesignPaper}"
+     FontFamily="{DynamicResource MaterialDesignFont}"
         ResizeMode="NoResize"
         WindowStyle="None"
         WindowStartupLocation="CenterScreen"
         
-        
-        Title="LoginWindow" Height="300" Width="450">
+        Name="loginWindow"
+        Title="Đăng nhập" Height="300" Width="400">
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="auto"></RowDefinition>
             <RowDefinition></RowDefinition>
         </Grid.RowDefinitions>
-        <Grid>
-            <uc:UserControlUC></uc:UserControlUC>
+        <Grid Grid.Row="0">
+            <uc:ControlBarUC Tag="{Binding Title, ElementName=loginWindow}"></uc:ControlBarUC>
         </Grid>
         <materialDesign:Card Grid.Row="1" Width="330" Height="150" HorizontalAlignment="Center" VerticalAlignment="Center">
             <Grid>
@@ -62,7 +63,7 @@
                     <Button Grid.Column="1"    
                             Style="{StaticResource MaterialDesignRaisedButton}"    
                             Width="110"    
-                            Background="Gray"
+                            Background="OrangeRed"
                             ToolTip="Resource name: MaterialDesignRaisedButton" Content="Thoát"></Button>
                 </Grid>
             </Grid>
