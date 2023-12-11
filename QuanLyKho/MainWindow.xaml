@@ -23,7 +23,7 @@
         Name="mainWindow"
         DataContext="{StaticResource MainVM}"
         Title="Phần mềm quản lý kho" Height="500" Width="525">
-    
+
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="auto"></RowDefinition>
@@ -31,6 +31,59 @@
         </Grid.RowDefinitions>
         <Grid Grid.Row="0">
             <uc:ControlBarUC Tag="{Binding Title, ElementName=mainWindow}"></uc:ControlBarUC>
+        </Grid>
+
+        <Grid Grid.Row="1">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="auto"></RowDefinition>
+                <RowDefinition></RowDefinition>
+            </Grid.RowDefinitions>
+
+            <!--menu-->
+            <Grid Grid.Row="0">
+                <StackPanel HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Background="Transparent" Orientation="Horizontal">
+                    <StackPanel.Resources>
+                        <Style TargetType="Button">
+                            <Setter Property="Margin" Value="2 4 2 4"></Setter>
+                            <Setter Property="Width" Value="40"></Setter>
+                            <Setter Property="Height" Value="50"></Setter>
+                        </Style>
+                    </StackPanel.Resources>
+                    <Button ToolTip="Nhập kho" >
+                        <Grid>
+                            <Grid.RowDefinitions>
+                                <RowDefinition></RowDefinition>
+                                <RowDefinition></RowDefinition>
+                            </Grid.RowDefinitions>
+                            <Grid Grid.Row="0">
+                                <TextBlock>Thai</TextBlock>
+                            </Grid>
+                            <Grid Grid.Row="1">
+                                <materialDesign:PackIcon HorizontalAlignment="Center" Kind="TwitterBox"/>
+                            </Grid>
+                        </Grid>
+                    </Button>
+
+                    <Button Content="{materialDesign:PackIcon Kind=ContentSave}" ToolTip="Save" />
+                </StackPanel>
+
+            </Grid>
+            <!--main-->
+            <Grid Grid.Row="1">
+                <Grid.RowDefinitions>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                </Grid.RowDefinitions>
+            </Grid>
+
+            <!--Filer-->
+            <Grid Grid.Row="0"></Grid>
+
+            <!--list-->
+            <Grid Grid.Row="1">
+
+            </Grid>
+
         </Grid>
     </Grid>
 </Window>
