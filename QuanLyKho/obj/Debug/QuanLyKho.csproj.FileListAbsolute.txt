@@ -29,3 +29,13 @@ C:\Users\admin\source\repos\QuanLyKho\QuanLyKho\obj\Debug\LoginWindow.g.cs
 C:\Users\admin\source\repos\QuanLyKho\QuanLyKho\obj\Debug\LoginWindow.baml
 C:\Users\admin\source\repos\QuanLyKho\QuanLyKho\obj\Debug\UserControlKteam\ControlBarUC.g.cs
 C:\Users\admin\source\repos\QuanLyKho\QuanLyKho\obj\Debug\UserControlKteam\ControlBarUC.baml
+C:\Users\admin\source\repos\QuanLyKho\QuanLyKho\obj\Debug\UnitWindow.g.cs
+C:\Users\admin\source\repos\QuanLyKho\QuanLyKho\obj\Debug\UnitWindow.baml
+C:\Users\admin\source\repos\QuanLyKho\QuanLyKho\obj\Debug\QuanLyKho_Content.g.cs
+C:\Users\admin\source\repos\QuanLyKho\QuanLyKho\bin\Debug\EntityFramework.dll
+C:\Users\admin\source\repos\QuanLyKho\QuanLyKho\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\admin\source\repos\QuanLyKho\QuanLyKho\bin\Debug\EntityFramework.xml
+C:\Users\admin\source\repos\QuanLyKho\QuanLyKho\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\admin\source\repos\QuanLyKho\QuanLyKho\bin\Debug\Microsoft.Expression.Interactions.dll
+C:\Users\admin\source\repos\QuanLyKho\QuanLyKho\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\admin\source\repos\QuanLyKho\QuanLyKho\bin\Debug\Microsoft.Expression.Interactions.xml
