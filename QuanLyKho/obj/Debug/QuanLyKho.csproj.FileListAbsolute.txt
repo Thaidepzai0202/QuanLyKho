@@ -39,3 +39,7 @@ C:\Users\admin\source\repos\QuanLyKho\QuanLyKho\bin\Debug\EntityFramework.SqlSer
 C:\Users\admin\source\repos\QuanLyKho\QuanLyKho\bin\Debug\Microsoft.Expression.Interactions.dll
 C:\Users\admin\source\repos\QuanLyKho\QuanLyKho\bin\Debug\System.Windows.Interactivity.dll
 C:\Users\admin\source\repos\QuanLyKho\QuanLyKho\bin\Debug\Microsoft.Expression.Interactions.xml
+C:\Users\admin\source\repos\QuanLyKho\QuanLyKho\obj\Debug\ObjectWindow.g.cs
+C:\Users\admin\source\repos\QuanLyKho\QuanLyKho\obj\Debug\ObjectWindow.baml
+C:\Users\admin\source\repos\QuanLyKho\QuanLyKho\obj\Debug\SuplierWindow.g.cs
+C:\Users\admin\source\repos\QuanLyKho\QuanLyKho\obj\Debug\SuplierWindow.baml
